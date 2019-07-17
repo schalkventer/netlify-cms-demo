@@ -1,0 +1,26 @@
+{
+  "intro": "A place for fellow Netlify CMS indoctrinates to discuss Netlify devotion and rituals",
+  "members": [
+    {
+      "name": "Schalk Venter",
+      "age": 32,
+      "profession": "web developer",
+      "hobby": "artist",
+      "status": "registered member"
+    },
+    {
+      "name": "Shailen Naidoo",
+      "age": 20,
+      "profession": "web developer",
+      "hobby": "guitarist",
+      "status": "registered member"
+    },
+    {
+      "name": "Clark Kent",
+      "age": 42,
+      "profession": "jounalist",
+      "hobby": "superhero",
+      "status": "pending member"
+    }
+  ]
+}

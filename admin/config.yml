@@ -1,0 +1,45 @@
+backend:
+    name: github
+    repo: schalkventer/netlify-cms-hello-world
+
+collections:
+    - 
+        name: members
+        label: Members Page
+        file: data.json
+        create: true
+        
+        fields:
+            -
+                name: introduction
+                label: Introduction
+                widget: text
+            -
+                name: list
+                label: Members list
+                widget: list
+                field:
+                  -
+                    name: name
+                    label: Member name
+                    widget: string
+                  -
+                    name: age
+                    label: Age
+                    widget: number
+                  -
+                    name: proffesion
+                    label: Member profession
+                    widget: string
+                  -
+                    name: hobby
+                    label: Member hobby
+                    widget: string
+                  -
+                    name: status
+                    label: Membership status
+                    widget: select
+                    options:
+                      - pending member
+                      - previous member
+                      - registered member
